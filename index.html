@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A0A0A" />
+
+  <!-- SEO -->
+  <title>Equilibrium Calpe — Centro de Recuperación Muscular | Masajes Deportivos y Terapias</title>
+  <meta name="description" content="Centro de recuperación muscular en Calpe (Alicante). Masajes deportivos, descontracturantes, hipnosis y terapias manuales con Juan Manuel Trabucco. Reserva tu cita." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://equilibriumcalpe.es/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://equilibriumcalpe.es/" />
+  <meta property="og:title" content="Equilibrium Calpe — Recupera tu equilibrio" />
+  <meta property="og:description" content="Masajes deportivos, descontracturantes, hipnosis y terapias manuales en Calpe (Alicante)." />
+  <meta property="og:image" content="https://equilibriumcalpe.es/img/og-cover.jpg" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="Equilibrium Calpe" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Equilibrium Calpe — Recupera tu equilibrio" />
+  <meta name="twitter:description" content="Centro de recuperación muscular en Calpe. Reserva tu cita online." />
+  <meta name="twitter:image" content="https://equilibriumcalpe.es/img/og-cover.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Equilibrium Calpe — Centro de Recuperación Muscular",
+    "image": "https://equilibriumcalpe.es/img/logo-equilibrium.png",
+    "url": "https://equilibriumcalpe.es",
+    "telephone": "+34665761094",
+    "email": "Equilibriumcalpe@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Maestro Serrano 9",
+      "addressLocality": "Calpe",
+      "addressRegion": "Alicante",
+      "postalCode": "03710",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.6450,
+      "longitude": 0.0450
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday"],
+        "opens": "10:00",
+        "closes": "14:00"
+      }
+    ],
+    "priceRange": "€€",
+    "description": "Centro de recuperación muscular en Calpe (Alicante) especializado en deportistas de alto rendimiento. Masajes deportivos, descontracturantes, hipnosis y terapias manuales con Juan Manuel Trabucco.",
+    "founder": {
+      "@type": "Person",
+      "name": "Juan Manuel Trabucco"
+    }
+  }
+  </script>
+</head>
+
+<body class="has-promo-banner">
+
+  <!-- ============================================================
+       BANNER PROMOCIÓN MAYO
+  ============================================================ -->
+  <div class="promo-banner" id="promoBanner" role="alert" aria-live="polite">
+    <span><strong>Promo Mayo:</strong> Primera sesión por solo <strong>€49</strong> &mdash; Válido únicamente durante mayo 2026.</span>
+    <a href="#reservar" class="promo-banner__cta">Reservar ahora &rarr;</a>
+    <button class="promo-banner__close" id="promoBannerClose" aria-label="Cerrar aviso de promoción">&#10005;</button>
+  </div>
+
+  <!-- ============================================================
+       HEADER / NAVEGACIÓN
+  ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a href="#inicio" class="logo-link" aria-label="Equilibrium Calpe — Inicio">
+        <img src="img/logo-equilibrium.png" alt="Logo Equilibrium Calpe" class="logo-img" width="160" height="60" data-logo-fallback />
+        <span class="logo-fallback" aria-hidden="true">EQUILIBRIUM</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Menú principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#reservar" class="nav-link">Reservar</a></li>
+          <li><a href="#bonos" class="nav-link">Bonos Regalo</a></li>
+          <li><a href="#quiron" class="nav-link nav-link--quiron">Quirón</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO — INICIO
+  ============================================================ -->
+  <section class="hero" id="inicio" aria-label="Sección principal">
+    <div class="hero-bg">
+      <img
+        src="img/sala-tratamiento.jpg"
+        alt="Sala de tratamiento de Equilibrium Calpe"
+        class="hero-img"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-text animate-fade-up">
+        <h1 class="hero-title">Recupera tu equilibrio.<br>Recupera tu cuerpo.</h1>
+        <p class="hero-subtitle">
+          Centro de Recuperación Muscular en Calpe — Masajes deportivos,<br class="br-desktop" />
+          terapias manuales, hipnosis y mucho más.
+        </p>
+        <div class="hero-actions">
+          <a href="#reservar" class="btn btn--primary">Reservar cita</a>
+          <a
+            href="#"
+            class="btn btn--outline"
+            id="heroWhatsApp"
+            aria-label="Contactar por WhatsApp"
+          >Contactar por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-arrow"></span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE JUAN MANUEL
+  ============================================================ -->
+  <section class="sobre-mi section-padding" id="sobre-mi">
+    <div class="container">
+      <div class="sobre-mi__inner">
+        <div class="sobre-mi__photo animate-fade-right">
+          <div class="photo-frame">
+            <img
+              src="img/juan-manuel.jpg"
+              alt="Juan Manuel Trabucco, especialista en recuperación muscular"
+              class="sobre-mi__img"
+              loading="lazy"
+              width="480"
+              height="600"
+            />
+          </div>
+        </div>
+
+        <div class="sobre-mi__text animate-fade-left">
+          <span class="section-label">El profesional</span>
+          <h2 class="section-title">Juan Manuel Trabucco</h2>
+          <p class="sobre-mi__role">Especialista en recuperación muscular y bienestar</p>
+
+          <p class="sobre-mi__body">
+            Equilibrium Calpe es un centro de recuperación muscular <strong>especializado en deportistas de alto rendimiento</strong> y terapias manuales. Somos un grupo de profesionales que estarán a tu disposición para lo que necesites.
+          </p>
+          <p class="sobre-mi__body">
+            Con más de <strong>20 años de experiencia</strong>, Juan Manuel ha trabajado con deportistas profesionales, amateurs y con todo tipo de personas que buscan recuperar su equilibrio físico y mental.
+          </p>
+          <p class="sobre-mi__body">
+            Su enfoque combina técnica manual rigurosa, conocimiento profundo del cuerpo y atención completamente personalizada. En Equilibrium no solo se trata el síntoma: se busca devolver el equilibrio real entre cuerpo y mente.
+          </p>
+
+          <a href="#reservar" class="btn btn--primary btn--sm">Reserva tu sesión</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICIOS
+  ============================================================ -->
+  <section class="servicios section-padding section--alt" id="servicios">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">Lo que ofrecemos</span>
+        <h2 class="section-title">Nuestros servicios</h2>
+        <p class="section-subtitle">Sesiones de <strong>60 o 90 minutos</strong>, adaptadas completamente a tus necesidades. <strong>Pago únicamente en efectivo.</strong></p>
+      </div>
+
+      <div class="servicios-grid">
+
+        <!-- Masaje Deportivo -->
+        <article class="servicio-card animate-fade-up" data-servicio="Masaje Deportivo">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="8" r="4" stroke="#C9A86A" stroke-width="1.5"/>
+              <path d="M12 18c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M8 26l4-8h16l4 8" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 26v8M26 26v8" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M10 30h20" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Masaje Deportivo</h3>
+          <p class="servicio-card__desc">
+            Ideal para deportistas. Acelera la recuperación, previene lesiones y mejora el rendimiento mediante técnicas manuales específicas sobre la musculatura activa.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ 60 min</span>
+            <span class="meta-precio"><strong class="precio-real">€60</strong></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Reservar</a>
+        </article>
+
+        <!-- Masaje Descontracturante -->
+        <article class="servicio-card animate-fade-up delay-1" data-servicio="Masaje Descontracturante">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4c0 0-10 6-10 14a10 10 0 0020 0C30 10 20 4 20 4z" stroke="#C9A86A" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M20 14v10M15 17l5 3 5-3" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 32c0-2.2 3.6-4 8-4s8 1.8 8 4" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Masaje Descontracturante</h3>
+          <p class="servicio-card__desc">
+            Libera tensiones acumuladas por estrés, malas posturas o sobrecarga. Devuelve la movilidad y alivia el dolor muscular profundo.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ 60 min</span>
+            <span class="meta-precio"><strong class="precio-real">€60</strong></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Reservar</a>
+        </article>
+
+        <!-- Hipnosis -->
+        <article class="servicio-card animate-fade-up delay-2" data-servicio="Hipnosis">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="14" stroke="#C9A86A" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="9" stroke="#C9A86A" stroke-width="1.5" opacity="0.6"/>
+              <circle cx="20" cy="20" r="4" stroke="#C9A86A" stroke-width="1.5" opacity="0.4"/>
+              <circle cx="20" cy="20" r="1.5" fill="#C9A86A"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Hipnosis</h3>
+          <p class="servicio-card__desc">
+            Terapia profunda para reducir ansiedad, romper bloqueos, mejorar hábitos y alcanzar un estado de bienestar integral cuerpo-mente.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ 60 min</span>
+            <span class="meta-precio"><strong class="precio-real">€70</strong></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Reservar</a>
+        </article>
+
+        <!-- Terapias Combinadas -->
+        <article class="servicio-card animate-fade-up delay-3" data-servicio="Terapias Combinadas">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 20c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M10 20c0 5.5 4.5 10 10 10" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+              <path d="M20 12v8l5 3" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 14l4 2M6 26l4-2M34 14l-4 2M34 26l-4-2" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Terapias Combinadas</h3>
+          <p class="servicio-card__desc">
+            Combinación personalizada de técnicas manuales adaptadas a tus necesidades específicas para una recuperación completa e integral.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ 60 o 90 min</span>
+            <span class="meta-precio"><strong class="precio-real">€75</strong> <span class="precio-sep">/</span> <strong class="precio-real">€100</strong></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Reservar</a>
+        </article>
+
+        <!-- Reiki -->
+        <article class="servicio-card animate-fade-up delay-4" data-servicio="Reiki">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6l2.5 8h8l-6.5 5 2.5 8L20 22l-6.5 5 2.5-8L9.5 14h8z" stroke="#C9A86A" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Reiki</h3>
+          <p class="servicio-card__desc">
+            Terapia energética suave que complementa la recuperación física con armonización energética para el equilibrio integral cuerpo-mente.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ 60 min</span>
+            <span class="meta-precio"><em class="precio-placeholder">Consultar</em></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Reservar</a>
+        </article>
+
+        <!-- Activación Kundalini -->
+        <article class="servicio-card animate-fade-up delay-5" data-servicio="Activación Kundalini">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 36V10" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M14 28c0 0 2-4 6-4s6-4 6-4" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M26 28c0 0-2-4-6-4s-6-4-6-4" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="20" cy="8" r="2.5" stroke="#C9A86A" stroke-width="1.5"/>
+              <path d="M12 36h16" stroke="#C9A86A" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Activación Kundalini</h3>
+          <p class="servicio-card__desc">
+            Práctica de energía profunda que activa el sistema nervioso y los chakras para liberar bloqueos, estimular la vitalidad y recuperar el equilibrio integral.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ A consultar</span>
+            <span class="meta-precio"><em class="precio-placeholder">Consultar</em></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Consultar</a>
+        </article>
+
+        <!-- Medicina Tradicional China -->
+        <article class="servicio-card animate-fade-up delay-6" data-servicio="Medicina Tradicional China">
+          <div class="servicio-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="20" cy="20" rx="12" ry="6" stroke="#C9A86A" stroke-width="1.5"/>
+              <ellipse cx="20" cy="20" rx="12" ry="6" stroke="#C9A86A" stroke-width="1.5" transform="rotate(60 20 20)" opacity="0.6"/>
+              <ellipse cx="20" cy="20" rx="12" ry="6" stroke="#C9A86A" stroke-width="1.5" transform="rotate(120 20 20)" opacity="0.3"/>
+              <circle cx="20" cy="20" r="2" fill="#C9A86A"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Medicina Tradicional China</h3>
+          <p class="servicio-card__desc">
+            Técnicas milenarias —incluyendo acupresión y digitopuntura— para restablecer el flujo de energía vital y tratar dolencias físicas y emocionales.
+          </p>
+          <div class="servicio-card__meta">
+            <span class="meta-duracion">⏱ A consultar</span>
+            <span class="meta-precio"><em class="precio-placeholder">Consultar</em></span>
+          </div>
+          <a href="#reservar" class="btn btn--primary btn--sm">Consultar</a>
+        </article>
+
+      </div><!-- /servicios-grid -->
+
+      <p class="servicios-efectivo-nota">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Pago únicamente en efectivo. Sin tarjeta ni transferencia.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESERVAR — CALENDARIO REAL (iframe quirohiro.io)
+  ============================================================ -->
+  <section class="reservar section-padding" id="reservar">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">Agenda tu sesión</span>
+        <h2 class="section-title">Reservar cita</h2>
+        <p class="section-subtitle">Selecciona el servicio, la fecha y la hora que mejor te vengan. Recibirás confirmación por WhatsApp.</p>
+      </div>
+
+      <div class="reservar__iframe-wrapper">
+        <iframe
+          src="https://link.quirohiro.io/widget/bookings/equilibrium-calpe-consulta"
+          width="100%"
+          height="800"
+          frameborder="0"
+          title="Reserva tu cita en Equilibrium Calpe"
+          loading="lazy"
+          allow="payment"
+        ></iframe>
+      </div>
+
+      <div class="reservar__policy animate-fade-up">
+        <div class="policy-card">
+          <h3 class="policy-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Política de cancelación
+          </h3>
+          <p>La reserva <strong>no se devuelve</strong>, pero sirve para tomar otro día. Si el cliente falta sin avisar, pierde la reserva.</p>
+          <p class="policy-efectivo">💵 <strong>Pago únicamente en efectivo.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BONOS REGALO
+  ============================================================ -->
+  <section class="bonos section-padding" id="bonos">
+    <div class="container">
+      <div class="bonos__inner">
+        <div class="bonos__visual animate-fade-right">
+          <div class="bono-card-display bono-placeholder-mode">
+            <div class="bono-placeholder-visual">
+              <div class="bono-ornament">✦</div>
+              <p class="bono-placeholder-text">BONO REGALO<br>EQUILIBRIUM</p>
+              <p class="bono-placeholder-sub">Centro de Recuperación Muscular</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bonos__text animate-fade-left">
+          <span class="section-label">El regalo perfecto</span>
+          <h2 class="section-title section-title--light">Por ser tan especial.</h2>
+          <p class="bonos__body">
+            Los bonos regalo de Equilibrium son el detalle perfecto para alguien que se lo merece todo. Elige una sesión o el pack de 3 para aprovechar al máximo.
+          </p>
+
+          <div class="bono-pack-card">
+            <div class="bono-pack-card__badge">Pack más popular</div>
+            <p class="bono-pack-card__desc"><strong>3 sesiones</strong> — úsalas cuando quieras.</p>
+            <p class="bono-pack-card__precio">€140</p>
+            <p class="bono-pack-card__validez">Validez: 3 meses desde la compra, sin excepción.</p>
+          </div>
+
+          <p class="bonos__body">
+            Entregamos el bono de forma presencial o lo preparamos para que puedas regalarlo en cualquier momento del año.
+          </p>
+          <a href="#" class="btn btn--gold btn--whatsapp" id="bonoWhatsApp" aria-label="Consultar bonos regalo por WhatsApp">
+            <svg class="wa-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Consultar bonos por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALERÍA DEL CENTRO
+  ============================================================ -->
+  <section class="galeria section-padding section--alt" id="galeria">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">El espacio</span>
+        <h2 class="section-title">Nuestro centro</h2>
+      </div>
+
+      <div class="galeria-grid" id="galeriaGrid">
+        <button class="galeria-item animate-fade-up delay-0" data-src="img/sala-tratamiento.jpg" data-caption="Sala de tratamiento" aria-label="Ver foto: Sala de tratamiento">
+          <img src="img/sala-tratamiento.jpg" alt="Sala de tratamiento de Equilibrium Calpe" loading="lazy" class="galeria-img" />
+          <span class="galeria-overlay" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6M7 10h6"/></svg>
+          </span>
+        </button>
+
+        <button class="galeria-item animate-fade-up delay-1" data-src="img/despacho.jpg" data-caption="Despacho" aria-label="Ver foto: Despacho">
+          <img src="img/despacho.jpg" alt="Despacho de consulta de Equilibrium" loading="lazy" class="galeria-img" />
+          <span class="galeria-overlay" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6M7 10h6"/></svg>
+          </span>
+        </button>
+
+        <button class="galeria-item animate-fade-up delay-2" data-src="img/juan-manuel.jpg" data-caption="Juan Manuel Trabucco" aria-label="Ver foto: Juan Manuel">
+          <img src="img/juan-manuel.jpg" alt="Juan Manuel Trabucco en el centro" loading="lazy" class="galeria-img" />
+          <span class="galeria-overlay" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6M7 10h6"/></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galería de imágenes" hidden>
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar galería">&#10005;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Imagen anterior">&#8249;</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Imagen siguiente">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESEÑAS / TESTIMONIOS
+  ============================================================ -->
+  <section class="resenas section-padding" id="resenas">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">Lo que dicen nuestros clientes</span>
+        <h2 class="section-title">Reseñas</h2>
+        <p class="section-subtitle">La experiencia de quienes ya han pasado por Equilibrium.</p>
+      </div>
+
+      <div class="resenas-grid">
+        <article class="resena-card animate-fade-up">
+          <div class="resena-estrellas" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="resena-texto">"Juan Manuel es un auténtico profesional. Llegué con una contractura terrible en la espalda y tras la primera sesión noté un alivio increíble. Lo recomiendo a todos mis conocidos."</p>
+          <span class="resena-autor">— María G., Calpe</span>
+        </article>
+
+        <article class="resena-card animate-fade-up delay-1">
+          <div class="resena-estrellas" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="resena-texto">"Como deportista amateur, el masaje deportivo ha cambiado por completo mi recuperación. El trato es cercano y la efectividad, brutal. Sin duda repetiré."</p>
+          <span class="resena-autor">— Carlos M., Benidorm</span>
+        </article>
+
+        <article class="resena-card animate-fade-up delay-2">
+          <div class="resena-estrellas" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="resena-texto">"La sesión de hipnosis fue una experiencia transformadora. No sabía qué esperar, pero Juan Manuel guía todo el proceso con mucha profesionalidad. Muy recomendable."</p>
+          <span class="resena-autor">— Laura P., Altea</span>
+        </article>
+      </div>
+
+      <div class="resenas-cta text-center">
+        <p class="resenas-nota">¿Has visitado Equilibrium? Comparte tu experiencia.</p>
+        <!-- PLACEHOLDER: reemplazar el href con el enlace real de Google Business una vez creado el perfil -->
+        <a
+          href="https://search.google.com/local/writereview?placeid=PLACEHOLDER_GOOGLE_PLACE_ID"
+          class="btn btn--outline-dark"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Dejar una reseña en Google"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          Dejar una reseña en Google
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECCIÓN QUIRÓN — Centro de Capacitación
+  ============================================================ -->
+  <section class="quieon section-padding" id="quiron" aria-label="Quirón — Centro de Capacitación">
+    <div class="container">
+      <div class="quieon-header text-center">
+        <span class="section-label section-label--light">Dentro de Equilibrium</span>
+        <h2 class="section-title section-title--light quieon-title">QUIRÓN</h2>
+        <p class="quieon-subtitle">Centro de Capacitación</p>
+        <p class="quieon-tagline">Formación presencial en terapias manuales y bienestar dentro de Equilibrium.</p>
+      </div>
+
+      <div class="quieon-body">
+        <p class="quieon-text animate-fade-up">
+          Quirón nace como el espacio formativo dentro de Equilibrium. Un centro pensado para <strong>todo el mundo</strong>: profesionales del sector, personas en transición laboral, o cualquiera que quiera adentrarse en el mundo de las terapias manuales y el bienestar integral.
+        </p>
+
+        <div class="quieon-info-grid">
+          <div class="quieon-info-card animate-fade-up delay-1">
+            <div class="quieon-info-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="quieon-info-title">Modalidad</h3>
+            <p class="quieon-info-text">Presencial<br>Calpe (Alicante)</p>
+          </div>
+
+          <div class="quieon-info-card animate-fade-up delay-2">
+            <div class="quieon-info-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            </div>
+            <h3 class="quieon-info-title">Próximo curso</h3>
+            <p class="quieon-info-text">
+              Sep–Oct 2026 · 4 fines de semana<br>
+              6 horas por día<br>
+              <strong class="quieon-precio-destacado">€750</strong><br><br>
+              19–20 sep &nbsp;·&nbsp; 26–27 sep<br>
+              3–4 oct &nbsp;·&nbsp; 10–11 oct
+            </p>
+          </div>
+
+          <div class="quieon-info-card animate-fade-up delay-3">
+            <div class="quieon-info-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3 class="quieon-info-title">Para quién</h3>
+            <p class="quieon-info-text">
+              <strong>Quiromasajista:</strong><br>sin requisitos previos.<br><br>
+              <strong>Masajista Profesional:</strong><br>requiere formación previa en masaje.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificación -->
+        <div class="quieon-certificacion animate-fade-up">
+          <div class="quieon-cert-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="quieon-cert-content">
+            <h3 class="quieon-cert-title">Certificación oficial avalada por</h3>
+            <ul class="quieon-cert-list">
+              <li><strong>AMARA</strong> &mdash; Asociación de Masajistas de la República Argentina</li>
+              <li><strong>APNB</strong> &mdash; España</li>
+            </ul>
+            <p class="quieon-cert-nota">Próximamente: Master Class para profesionales avanzados.</p>
+          </div>
+        </div>
+
+        <div class="quieon-cta text-center">
+          <a href="#" class="btn btn--gold btn--whatsapp btn--lg" id="quironWhatsApp" aria-label="Consultar formaciones de Quirón por WhatsApp">
+            <svg class="wa-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Consultar formaciones por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       UBICACIÓN
+  ============================================================ -->
+  <section class="ubicacion section-padding" id="ubicacion">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">Encuéntranos</span>
+        <h2 class="section-title">¿Dónde estamos?</h2>
+      </div>
+
+      <div class="ubicacion__inner">
+        <div class="ubicacion__map animate-fade-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d767.0!2d0.0450!3d38.6450!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCalle+Maestro+Serrano+9%2C+03710+Calpe%2C+Alicante!5e0!3m2!1ses!2ses!4v1680000000000!5m2!1ses!2ses"
+            width="100%"
+            height="400"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Equilibrium Calpe en Google Maps"
+          ></iframe>
+        </div>
+
+        <div class="ubicacion__info animate-fade-left">
+          <div class="info-block">
+            <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div>
+              <strong>Dirección</strong>
+              <p>Calle Maestro Serrano 9<br>CP 03710, Calpe (Alicante), España</p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            <div>
+              <strong>Horario de atención</strong>
+              <p>
+                Lunes a Viernes: 10:00 — 18:00<br>
+                Sábado: 10:00 — 14:00<br>
+                <em class="horario-nota">También puedes consultar disponibilidad fuera de horario.</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 12a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 1.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.33A16 16 0 0015.67 17.09l1.52-1.52a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://api.whatsapp.com/send?phone=34665761094" class="info-link" target="_blank" rel="noopener noreferrer">+34 665 761 094</a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A86A" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:Equilibriumcalpe@gmail.com" class="info-link">Equilibriumcalpe@gmail.com</a>
+            </div>
+          </div>
+
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=Calle+Maestro+Serrano+9,+03710+Calpe,+Alicante,+Spain"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Cómo llegar a Equilibrium Calpe en Google Maps"
+          >
+            &#9654; Cómo llegar
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACTO (refuerzo final)
+  ============================================================ -->
+  <section class="contacto section-padding section--dark" id="contacto">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label section-label--light">¿Hablamos?</span>
+        <h2 class="section-title section-title--light">Contacta con nosotros</h2>
+      </div>
+
+      <div class="contacto-bloques">
+        <div class="contacto-bloque animate-fade-up">
+          <svg class="contacto-icon" width="36" height="36" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <h3 class="contacto-bloque-title">WhatsApp</h3>
+          <p class="contacto-bloque-info">+34 665 761 094</p>
+          <a href="https://api.whatsapp.com/send?phone=34665761094" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">Escribir ahora</a>
+        </div>
+
+        <div class="contacto-bloque animate-fade-up delay-15">
+          <svg class="contacto-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <h3 class="contacto-bloque-title">Email</h3>
+          <p class="contacto-bloque-info">Equilibriumcalpe@gmail.com</p>
+          <a href="mailto:Equilibriumcalpe@gmail.com" class="btn btn--primary" aria-label="Enviar email">Enviar email</a>
+        </div>
+
+        <div class="contacto-bloque animate-fade-up delay-3">
+          <svg class="contacto-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <h3 class="contacto-bloque-title">Dirección</h3>
+          <p class="contacto-bloque-info">Calle Maestro Serrano 9<br>Calpe, Alicante</p>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Calle+Maestro+Serrano+9,+03710+Calpe,+Alicante,+Spain" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver en Google Maps">Ver en el mapa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="img/logo-equilibrium.png" alt="Equilibrium Calpe" class="footer-logo" width="140" height="52" loading="lazy" data-logo-fallback />
+          <span class="logo-fallback logo-fallback--footer" aria-hidden="true">EQUILIBRIUM</span>
+          <p class="footer-tagline">Centro de Recuperación Muscular en Calpe</p>
+          <address class="footer-address">
+            Calle Maestro Serrano 9, 03710 Calpe (Alicante)<br>
+            <a href="tel:+34665761094">+34 665 761 094</a> &mdash;
+            <a href="mailto:Equilibriumcalpe@gmail.com">Equilibriumcalpe@gmail.com</a>
+          </address>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-links-title">Navegación</h4>
+          <ul class="footer-nav">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#reservar">Reservar</a></li>
+            <li><a href="#bonos">Bonos Regalo</a></li>
+            <li><a href="#quiron">Quirón</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4 class="footer-links-title">Síguenos</h4>
+          <div class="social-links">
+            <a href="https://instagram.com/Equilibrium_calpe" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Equilibrium Calpe">
+              <!-- Instagram icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <a href="https://tiktok.com/@Equilibrium.calpe" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok de Equilibrium Calpe">
+              <!-- TikTok icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.3 6.3 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.53V6.78a4.85 4.85 0 01-1.02-.09z"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer-legal-links">
+            <a href="aviso-legal.html">Aviso Legal</a>
+            <a href="politica-privacidad.html">Política de Privacidad</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Equilibrium Calpe &mdash; Todos los derechos reservados.</p>
+        <p class="footer-credit">Diseño web profesional | Calpe, Alicante</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BOTÓN FLOTANTE WHATSAPP
+  ============================================================ -->
+  <a
+    href="https://api.whatsapp.com/send?phone=34665761094"
+    class="whatsapp-float"
+    id="whatsappFloat"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactar por WhatsApp con Equilibrium Calpe"
+  >
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
